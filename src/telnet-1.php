@@ -16,6 +16,8 @@ $telnet = new Telnet($ip);
 
 $telnet->connect();
 $telnet->login($user, $password, $type);
+$telnet->exec('terminal length 0');
+
 // プロンプトとして表示される内容を見分けがつくように教えています。
 $telnet->setPrompt('PHPLEC02>');
 
