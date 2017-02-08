@@ -9,13 +9,13 @@ require_once 'bootstrap.php';
 $ip = getenv('host');
 $user = getenv('user');
 $password = getenv('password');
-$os = getenv('os');
+$type = getenv('type');
 
 // Telnet接続用のオブジェクトを生成しています。
 $telnet = new Telnet($ip);
 
 $telnet->connect();
-$telnet->login($user, $password, $os);
+$telnet->login($user, $password, $type);
 // プロンプトとして表示される内容を見分けがつくように教えています。
 $telnet->setPrompt('PHPLEC02>');
 
