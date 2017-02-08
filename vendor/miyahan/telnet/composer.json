@@ -1,0 +1,46 @@
+{
+    "name": "miyahan/telnet",
+    "description": "Telnet client in php",
+    "keywords": ["telnet", "router", "cisco", "juniper"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bestnetwork",
+            "email": "reparto.sviluppo@bestnetwork.it"
+        },
+        {
+            "name": "Dalibor Andzakovic",
+            "email": "dali@swerve.co.nz"
+        },
+        {
+            "name": "Marc Ennaji"
+        },
+        {
+            "name": "Matthias Blaser",
+            "email": "mb@adfinis.ch"
+        },
+        {
+            "name": "Christian Hammers",
+            "email": "chammers@netcologne.de"
+        },
+        {
+            "name": "Frederik Sauer",
+            "email": "fsa@dwarf.dk"
+        },
+        {
+            "name": "Kouhei Miyasaka",
+            "email": "k.miyasaka@jpn21.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "miyahan\\network\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
+
